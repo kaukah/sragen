@@ -185,6 +185,7 @@ padding: 6px 12px;
 cursor: pointer;
 color: inherit;
 z-index: 101;
+visibility:hidden;
 }
 
 
@@ -209,28 +210,31 @@ display: none;
 <main>
 <div id="quote">"Quotes & Jadwal disini"</div>
 <div id="mainText"><strong>—</strong><span><i></i></span></div>
+<!-- 
 <div id="intervalText">—</div>
-<div class="progress"><i id="intervalProgress"></i></div>
 
+<div class="progress"><i id="intervalProgress"></i></div> 
 <span><div class="status-bar" style="color:gray;margin-top:0px;margin-bottom:30px;font-size: 12px;">
 <span class="internet-speed">🌐 ...</span>
 
-</div></span>
+</div></span>-->
 
 <!-- PERBAIKAN: Tambahkan jam di tengah halaman -->
+<!-- 
 <div id="center-clock">
 <span class="time-icon">🕒</span>
-<span id="center-time">--:--</span>
+<span id="center-time">~~:~~</span>
 <span class="date-icon">📅</span>
-<span id="center-date">--- ---- ----</span>
+<span id="center-date">~~- ~~~~ ~~~~</span>
 </div>
+ -->
 
 <!-- PERBAIKAN: Tombol toggle di pojok kanan atas -->
 <button id="toggleTheme">🌓</button>
 </main>
 
 <!-- Grafik Jadwal Sholat -->
-<div id="chart-container">
+<!-- <div id="chart-container">
 
 <div id="chart"></div>
 <div class="month-labels">
@@ -247,7 +251,7 @@ display: none;
 <span class="month-label">NOV</span>
 <span class="month-label">DES</span>
 </div>
-</div>
+</div> -->
 
 <script>
 const TZ = 'Asia/Jakarta';
